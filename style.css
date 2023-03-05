@@ -12,7 +12,9 @@
 
 :root{
     --background: #424242;
+    --dark_background: #31313183;
     --acc_txt: #c05812;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
 }
 
 html{
@@ -53,6 +55,35 @@ header .logo span{
 
 header .navbar a{
     color: var(--acc_txt);
-    
+
 }
 
+section{
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    border: 3px solid var(--acc_txt);
+    background-color: var(--acc_txt);
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: var(--background);
+    transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color:var(--background);
+    color: var(--white);
+    border: 3px solid var(--acc_txt);
+}
+
+.hero .hero_container .hero_content{
+    background-color: var(--dark_background);
+    border-radius: 2%;
+    box-shadow: var(--box-shadow);
+    width: 600px;
+    height: 400px;
+}
