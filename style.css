@@ -1,0 +1,17 @@
+*{
+    --background: #b64242;git 
+    
+
+}
+
+:root{
+
+}
+
+html{
+
+}
+
+body{
+    background-color: var(--background);
+}
